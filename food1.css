@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo {
+    margin: 34px 23px;
+    
+}
+#logo img{
+    width: 125px;
+    
+}
+#navebar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1; 
+    
+
+
+}
+#navebar{
+    display: flex;
+    align-items: center;
+    
+    
+}
+#navebar {
+    position: relative;
+}
+#navebar ul{
+    display: flex;
+   
+}
+
+#navebar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    color: blue;
+    
+
+
+}
+#navebar ul li a{
+    display: block;
+    padding: 3px 24px;
+    text-decoration: none;
+    color: white; 
+    border-radius: 20px;
+}
+
+#navebar ul li a:hover{
+    
+    background-color: white;
+    color: black;
+    
+}
+
+#home{
+    /* position: relative;
+    padding: 22px 243px; */
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3px 200px;
+    height: 600px;
+    justify-content:center ;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background :url("img/bg.jpg") no-repeat center center;
+    background-size: 100%;
+    top: 0PX;
+    left: 0PX;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+.h_pri{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Open Sans', sans-serif;
+    ;
+    
+}
+.but{
+    padding: 7px 20px;
+    
+    border-radius: 22px;
+    background-color: slategray;
+    color:black ;
+    margin: 17px;
+    font-size: 1.2rem;
+}
+.head{
+    text-align: center;
+    padding: 12px;
+   
+
+
+}
+
+.h-sec{
+    text-align: center;
+    padding: 12px;
+    
+    
+    
+}
+
+#serivce{
+    display: flex;
+    /* margin:274px ; */
+}
+
+#serivce .box{
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+#serivce .box img{ 
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+p{
+    margin: 12px;
+}
+
+.h-thir{
+    padding: 3px 600px;
+    font-size: 30px;
+    color: black;
+}
+
+#client{
+    height: 200px;
+    font-family: 'Markazi Text';
+    
+}
+#client::before{
+    
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: url("img/bulue.jpg") ;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+#client1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    padding: 25px;
+}
+
+#client1 img{
+    height: 200px;
+    
+}
+.h-fourt{
+    padding: 20px 600px;
+}
+#contact{
+    position: relative;
+    
+    color: whitesmoke;
+    margin-top: 70px ;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    background: url("img/red-light-round-podium-black-background-mock-up.jpg") ;
+    z-index: -1;
+    
+    
+
+  
+}
+#contect-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:3px 200px ;
+    
+}
+#contect-section form{
+    width: 40%;
+}
+
+#contect-section label{
+    font-size: 1.4rem;
+}
+.from-group{
+    /* width: 100%; */
+    padding: 0.4rem;
+
+}
